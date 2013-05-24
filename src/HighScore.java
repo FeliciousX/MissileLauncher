@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  * to the user.
  */
 public class HighScore {
-    private static final String HIGHSCORE_FILENAME = "src/High_Scores.txt";
+    private static final String HIGHSCORE_FILENAME = "High_Scores.txt";
     private static final int MAX_PLAYERS = 10;
 
     private ArrayList<Player> playerArray;

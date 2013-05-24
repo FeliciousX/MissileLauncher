@@ -49,8 +49,8 @@ public class MissilePanel extends JPanel implements MouseMotionListener, MouseLi
 
     private void init()
     {
-        background = Toolkit.getDefaultToolkit().getImage("src/img/bg.jpg");
-        cannon = Toolkit.getDefaultToolkit().getImage("src/img/cannon.png");
+        background = Toolkit.getDefaultToolkit().getImage("img/bg.jpg");
+        cannon = Toolkit.getDefaultToolkit().getImage("img/cannon.png");
         angle = Math.PI * 2;
         this.targetArray = new CopyOnWriteArrayList<Target>();
         this.missileArray = new CopyOnWriteArrayList<Missile>();

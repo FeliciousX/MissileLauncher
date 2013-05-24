@@ -26,11 +26,11 @@ public class DialogGameOver extends JDialog implements ActionListener {
 
         if (player.isWin()) {
             label.setText("You WIN!");
-            smiley = Toolkit.getDefaultToolkit().getImage("src/img/happy.jpg");
+            smiley = Toolkit.getDefaultToolkit().getImage("img/happy.jpg");
         }
         else {
             label.setText("You LOSE");
-            smiley = Toolkit.getDefaultToolkit().getImage("src/img/sad.png");
+            smiley = Toolkit.getDefaultToolkit().getImage("img/sad.png");
         }
         label.setFont(new Font("Serif", Font.BOLD, 25));
         label.setPreferredSize(new Dimension(MAX_WIDTH, 40));
