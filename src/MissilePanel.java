@@ -192,7 +192,7 @@ public class MissilePanel extends JPanel implements MouseMotionListener, MouseLi
                     public void run(){
                         try {
                             Clip c = AudioSystem.getClip();
-                            c.open(AudioSystem.getAudioInputStream(new File("src/sound/game_over.wav")));
+                            c.open(AudioSystem.getAudioInputStream(new File("sound/game_over.wav")));
                             c.start();
                         }
                         catch (LineUnavailableException e) {
@@ -259,7 +259,7 @@ public class MissilePanel extends JPanel implements MouseMotionListener, MouseLi
                     public void run(){
                         try {
                             Clip c = AudioSystem.getClip();
-                            c.open(AudioSystem.getAudioInputStream(new File("src/sound/pak.wav")));
+                            c.open(AudioSystem.getAudioInputStream(new File("sound/pak.wav")));
                             c.start();
                         }
                         catch (LineUnavailableException e) {
@@ -302,7 +302,7 @@ public class MissilePanel extends JPanel implements MouseMotionListener, MouseLi
             public void run(){
                 try {
                     Clip c = AudioSystem.getClip();
-                    c.open(AudioSystem.getAudioInputStream(new File("src/sound/pew.wav")));
+                    c.open(AudioSystem.getAudioInputStream(new File("sound/pew.wav")));
                     c.start();
                 }
                 catch (LineUnavailableException e) {
